@@ -1,0 +1,31 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "It&#39;s a market in developer",
+  "author": "Paulo Carbajal",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "animate.css": "^4.1.0",
+    "nuxt": "^2.0.0",
+    "v-click-outside": "^3.0.1",
+    "vue-glide-js": "^1.3.14",
+    "vue-page-transition": "^0.2.2",
+    "vue-zoom-on-hover": "^1.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2"
+  }
+}
