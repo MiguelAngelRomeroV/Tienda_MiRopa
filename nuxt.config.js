@@ -61,7 +61,7 @@ export default {
   /*
   ** Build configuration
   */
-  target: 'static',
+  target: 'docs',
   router: {
     base: '/Tienda_MiRopa/'
   },
